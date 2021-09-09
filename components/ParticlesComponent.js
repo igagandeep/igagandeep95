@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 function ParticlesComponent() {
     return (
             <Particles 
-                width="100%" height={outerHeight}
+                width="100%" style={{minHeight:"1000px"}}
                 params={{
                     "particles": {
                         "number": {
