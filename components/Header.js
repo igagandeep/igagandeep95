@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "./Navbar";
 import Image from 'next/image';
 import dp from "../public/dp.jpg";
@@ -21,7 +22,7 @@ function Header() {
                             <h2 className="text-3xl font-bold">I Am {' '} 
                             <Typical  style={{color:"#e54b4b"}} items={['Full-Stack Developer','Front-End Developer']} />   
                             </h2>
-                            <p className="md:px-24 lg:px-72  text-gray-500 ">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>    
+                            <p className="md:px-24 lg:px-72  text-gray-500 ">Obviously I 'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>    
                             <button className="bg-secondary my-3 p-2 rounded-lg">Download CV
                             </button>
                         </div>
