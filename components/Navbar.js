@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <div className="py-7">        
-        <nav  className="z-999 bg-white flex flex-col md:flex-row  md:items-stretch md:justify-evenly p-3  h-auto shadow-lg fixed top-0 w-full z-50">
+        <nav  className="z-999 bg-white flex flex-col md:flex-row  md:items-stretch md:justify-evenly p-3  h-auto shadow-xl fixed top-0 w-full z-50">
             <div className="flex justify-between mx-5 text-center" >
             <h1 className="text-2xl font-bold"> Gagan</h1>
             <MenuIcon  onClick={() => {setIsOpen(!isOpen)}} className="md:hidden w-8 h-7 cursor-pointer"/>
