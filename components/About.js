@@ -5,9 +5,9 @@ import signature from "../public/signature.png";
 
 function About() {
     return (
-        <section className="grid sm:grid-cols-12  sm:gap-4 border-4 ">
+        <section className="grid sm:grid-cols-12  sm:gap-4  my-10">
              <div className="flex justify-center p-14 sm:col-start-2 sm:col-end-6">
-                <Image   src={dp} alt="profilepic" className="object-contain shadow-2xl" />
+                <Image   src={dp} alt="profilepic" className="object-contain " />
              </div>
              <div className="sm:col-start-6 sm:col-end-12 px-16 sm:py-32 sm:px-20   space-y-4" >
                  <h1 className="text-2xl text-secondary font-bold">Gagandeep Guru</h1>
