@@ -9,7 +9,7 @@ import ParticlesComponent from "./ParticlesComponent";
 
 function Header() {
     return (
-        <div>
+        <div id="home">
             <Navbar />
             <div className="relative bg-cover bg-center bg-hero-pattern w-full h-screen">
                 <div className="bg-primary opacity-80 absolute w-full h-screen " >
