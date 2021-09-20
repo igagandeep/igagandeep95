@@ -23,10 +23,22 @@ module.exports = {
       'primary': '#161c2d',
       'secondary': '#e54b4b',
       'danger': '#e3342f',
+      'html' : '#e34c26',
+      'css' : '#264de4',
+      'js' : '#f0db4f',
+      'react': '#61DBFB',
+      'next':'#05427c',
+      'redux':'#764abc',
+      'git' : '#f34f29',
+      'node' : '#303030',
+      'tailwind' : '#b8c2cc ',
+      'firebase': '#FFA611'
      })
   },
   variants: {
-    extend: {},
+    extend: {
+     
+    },
   },
   plugins: [],
 }

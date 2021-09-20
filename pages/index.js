@@ -21,7 +21,7 @@ export default function Home() {
         <Header/>
         <About />
         <Portfolio />
-        {/* <Skills /> */}
+        <Skills />
       </main>
     </div>
   )

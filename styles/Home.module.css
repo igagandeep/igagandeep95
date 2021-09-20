@@ -1,3 +1,10 @@
-.borderImage{
-  border:4px solid #e54b4b;
+
+.projects > .project:nth-child(:first-child){
+  background-color: blue; 
+  
 }
+/* .project:nth-child(even){
+  background-color: red;  
+  order:2
+} */
+
