@@ -32,18 +32,18 @@ function Contact() {
                                 <label className="block text-gray-700 text-sm font-bold mb-2" >
                                     Email
                                 </label>
-                                <input type="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" />
+                                <input type="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" placeholder="Email" />
                         </div>
 
                         <div className="mb-4">
                                 <label className="block text-gray-700 text-sm font-bold mb-2" >
                                     Message
                                 </label>
-                                <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" />
+                                <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message"  placeholder="Username" />
                         </div>
-                        <button className="bg-primary hover:bg-primary w-full  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-        Sign In
-      </button>
+                        <button className="bg-primary hover:bg-primary   text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                            Send Message
+                        </button>
                     </form>
                     </div>
                 </div>
