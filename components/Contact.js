@@ -13,7 +13,7 @@ function Contact() {
 
                     {/* <Image src={logo} alt="logo" width={200} objectFit="contain" height={200}/> */}
                 {/* </div> */}
-                <div className="text-center md:text-left w-full md:w-2/3 lg:w-full xl:w-4/5 lg:p-4 flex flex-col justify-center m-auto text-gray-500 space-y-3">
+                <div className="text-center md:text-left w-full md:w-2/3 lg:w-full xl:w-4/5 lg:p-4 flex flex-col justify-center m-auto text-gray-500 p-4 space-y-3">
                     <h1>Hi, I am a Front End Web Developer. striji. Lorem I-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galij</h1>
                     <h1 className=" font-bold lg:font-normal lg:text-xl">8 Shirebrook Crt, Brampton, ON, L6X 1Z2</h1>   
                     <h1 className="font-bold lg:text-2xl"><InboxIcon  className="w-8 h-7 inline-block" /> igagandeep95@gmail.com</h1>
