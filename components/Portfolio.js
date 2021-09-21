@@ -10,7 +10,7 @@ import {projects_detail} from "../utils/projects_detail";
 
 function Portfolio() {
     return (
-        <section className=" py-8 h-auto ">
+        <section className=" py-8 h-auto  mb-6">
             <h1 className="text-center text-3xl font-bold py-5">MY WORK</h1>
             
             {/* Project Container */}

@@ -6,10 +6,13 @@ function Contact() {
     return (
         <section id="contact" className="w-full h-auto ">
             <div className="flex flex-col md:flex-row  p-8 md:p-0 w-full lg:w-4/5 h-auto m-auto  my-4 md:my-12">
-            <div className="w-full  md:w-1/2 my-4">
-                <div className="flex flex-col justify-center mb-6">
-                    <Image src={logo} alt="logo" width={200} objectFit="contain" height={200}/>
-                </div>
+            <div className="w-full  md:w-1/2 my-4 mt-12">
+                {/* <div className="text-center mt-12 mb-6 border-2 border-black"> */}
+                <h1 style={{fontFamily: 'Great Vibes, cursive'}} className="text-center drop-shadow-xl mt-12 mb-6 text-7xl font-extrabold">iGagan<span className="text-secondary">Deep95</span></h1>
+   
+
+                    {/* <Image src={logo} alt="logo" width={200} objectFit="contain" height={200}/> */}
+                {/* </div> */}
                 <div className="text-center md:text-left w-full md:w-2/3 lg:w-full xl:w-4/5 lg:p-4 flex flex-col justify-center m-auto text-gray-500 space-y-3">
                     <h1>Hi, I am a Front End Web Developer. striji. Lorem I-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galij</h1>
                     <h1 className=" font-bold lg:font-normal lg:text-xl">8 Shirebrook Crt, Brampton, ON, L6X 1Z2</h1>   
