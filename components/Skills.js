@@ -14,7 +14,7 @@ function Skills() {
 
     return (
         <section className="p-4 h-auto  bg-primary ">
-            <h1 className="text-center text-white text-3xl font-bold mt-9">SKILLS</h1>
+            <h1 className="text-center text-white text-3xl font-bold mt-9 mb-5 md:mb-0">SKILLS</h1>
             <div className="flex flex-wrap  justify-center p-0 md:p-20 w-full md:w-3/4 m-auto   gap-8 md:gap-12">
                 <div onMouseOver={() => {setHtml('80%')}} onMouseLeave={() => {setHtml('HTML5')}} className="animate-pulse hover:transition-transform hover:duration-700 hover:delay-500 hover:ease-out  border-white text-xl shadow-lg bg-html text-white rounded-full w-32 h-32 ">
                     <h2 className="text-center mt-12 " >{html}</h2>
