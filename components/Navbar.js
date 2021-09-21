@@ -24,9 +24,9 @@ function Navbar() {
                     ))}
                 </div>
                 <div className="space-x-1 my-2 md:my-0">
-                    <SocialIcon  style={{width:"30px", height:"30px"}} url="https://facebook.com" /> 
-                    <SocialIcon  style={{width:"30px", height:"30px"}} url="https://linkedin.com" /> 
-                    <SocialIcon style={{width:"30px", height:"30px"}} url="https://twitter.com" />   
+                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://facebook.com" /> 
+                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://linkedin.com" /> 
+                    <SocialIcon className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://twitter.com" />   
                 </div>
             </div>            
         </nav>

@@ -16,7 +16,7 @@ function About() {
                  <p className="text-gray-500">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                  {/* <Image src={signature} className="border-2" alt="signature" /><br/>    */}
                 <p style={{fontFamily: 'Great Vibes, cursive'}}>Gagan Deep</p>
-                <button className="bg-secondary my-3 p-2 text-white">View Portfolio</button>
+                <button className="bg-secondary my-3 p-2 text-white animate-pulse">View Portfolio</button>
                 
              </div>   
 
