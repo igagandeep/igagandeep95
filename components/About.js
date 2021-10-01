@@ -11,10 +11,8 @@ function About() {
              <div className="sm:col-start-6 sm:col-end-12 px-16 sm:py-32 sm:px-20  pb-8  space-y-4" >
                  <h1 className="text-2xl text-secondary font-bold">Gagandeep Guru</h1>
                  <h3 className="font-bold">I' m a Passionate <span className="text-secondary">Web Developer</span></h3>
-                 <p className="text-gray-500">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.
-                 </p>
-                 <p className="text-gray-500">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                 {/* <Image src={signature} className="border-2" alt="signature" /><br/>    */}
+                 <p className="text-gray-500">From the moment I produced “Hello World” in the console of my first application, I knew I was hooked into the world of web development. But Web Development has never been “just a job” for me, it’s offered an engaging challenege to continually learn and improve my skills in creating high-quality softwares. What started with simple “Hello World” has become a full fledged passion that only gets more exciting as the years go by.</p>
+                 <p className="text-gray-500">I have more than a year of experience in designing responsive web applications using web technologies like Javascript, React, HTML5, CSS3, Tailwind.</p>
                 <p style={{fontFamily: 'Great Vibes, cursive'}}>Gagan Deep</p>
                 <button className="bg-secondary my-3 p-2 text-white animate-pulse">View Portfolio</button>
                 

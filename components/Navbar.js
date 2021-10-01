@@ -14,9 +14,6 @@ function Navbar() {
         <nav  className="z-999 bg-white flex flex-col md:flex-row  md:items-stretch md:justify-evenly p-3  h-auto shadow-xl fixed top-0 w-full z-50">
             <div className="flex justify-between mx-5 text-center" >
             <h1 style={{fontFamily: 'Great Vibes, cursive'}} className="text-2xl font-extrabold">iGagan<span className="text-secondary">Deep95</span></h1>
-            {/* <div>
-                <Image src={logo} alt="logo" width={100} height={60}/>
-            </div> */}
             <MenuIcon  onClick={() => {setIsOpen(!isOpen)}} className="md:hidden w-8 h-7 cursor-pointer"/>
             </div>
 
@@ -24,14 +21,14 @@ function Navbar() {
                 <div className="flex flex-col md:mt-1   md:flex-row md:space-x-10 font-bold ">
                     {nav_items.map((item, i) => (
                         <Link  key={item.menu} href={item.target}>
-                        <a className=" md:transition md:duration-100 md:transform hover:scale-125 hover:text-red-500 active:text-red-500 py-2 md:py-0 text-sm">{item.menu}</a>
+                        <a className="md:transition md:duration-100 md:transform hover:scale-125 hover:text-red-500 active:text-red-500 py-2 md:py-0 text-sm">{item.menu}</a>
                     </Link>
                     ))}
                 </div>
                 <div className="space-x-1 my-2 md:my-0">
-                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://facebook.com" /> 
-                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://linkedin.com" /> 
-                    <SocialIcon className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://twitter.com" />   
+                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://www.facebook.com/deep.guru.568/" /> 
+                    <SocialIcon  className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://www.linkedin.com/in/igagandeep95/" /> 
+                    <SocialIcon className="hover:animate-bounce" style={{width:"30px", height:"30px"}} url="https://twitter.com/GaganDe72611965" />   
                 </div>
             </div>            
         </nav>
